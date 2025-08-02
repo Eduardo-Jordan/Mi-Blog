@@ -1,5 +1,7 @@
-<h1> Mi Blog <h1>
+Mi Portafolio
 
 Estado de proyecto: En construccion.
 
 //*Crear Mi Pagina
+//*## 📦 Actualización
+- Mejoras en la visibilidad del editor de texto
