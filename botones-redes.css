@@ -1,0 +1,76 @@
+/* ========== ESTILOS PARA BOTONES SOCIALES ========== */
+.social-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.social-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: all 0.3s ease;
+    background-color: rgba(192, 192, 192, 0.2);
+    color: #b5d0ff;
+    text-shadow: 0 0 2px #0066ff;
+    border: 1px solid rgba(0, 255, 255, 0.3);
+}
+
+.social-btn:hover {
+    background-color: rgba(0, 255, 255, 0.1);
+    transform: translateY(-2px);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+}
+
+.social-btn i {
+    margin-right: 8px;
+    font-size: 1.1em;
+}
+
+/* ===== BOTÓN REDES SOCIALES CON LOGO UBUNTU ===== */
+.social-btn.ubuntu-btn {
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: rgba(233, 84, 32, 0.2); /* Fondo naranja Ubuntu con transparencia */
+    border: 1px solid rgba(233, 84, 32, 0.5); /* Borde naranja Ubuntu */
+}
+
+.social-btn.ubuntu-btn:hover {
+    background-color: rgba(233, 84, 32, 0.3);
+    border-color: #E95420; /* Naranja Ubuntu sólido al hover */
+    box-shadow: 0 0 10px rgba(233, 84, 32, 0.4);
+}
+
+.social-btn.ubuntu-btn i {
+    color: #E95420; /* Color naranja Ubuntu */
+    font-size: 1.3em;
+    margin-right: 10px;
+}
+
+/* ===== COLORES ESPECÍFICOS PARA CADA BOTÓN ===== */
+.whatsapp { color: #25D366; }
+.facebook { color: #1877F2; }
+.github { color: #f5f5f5; }
+.linkedin { color: #0077B5; }
+.instagram { color: #E4405F; }
+.email { color: #D44638; }
+
+/* ===== EFECTOS HOVER CON COLORES ORIGINALES ===== */
+.whatsapp:hover { border-color: #25D366; }
+.facebook:hover { border-color: #1877F2; }
+.github:hover { border-color: #f5f5f5; }
+.linkedin:hover { border-color: #0077B5; }
+.instagram:hover { border-color: #E4405F; }
+.email:hover { border-color: #D44638; }
+
+/* ===== AJUSTES DE DISEÑO ===== */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
