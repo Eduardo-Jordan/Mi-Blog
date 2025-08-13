@@ -1,0 +1,15 @@
+portafolioportportafolio/
+├── index.html          # Página principal (HOME)
+├── proyectos/          # Carpeta de proyectos
+│   ├── index.html      # Listado general de proyectos
+│   └── proyecto1.html  # Detalle de un proyecto específico
+│   └── proyectoX.html  # Detalle de un proyecto específico
+├── redes/              # Carpeta de habilidades en redes
+│   └── index.html      # Detalle de redes y cloud
+├── css/
+│   ├── styles.css      # Estilos GLOBALES (compartidos)
+│   ├── proyectos.css   # Estilos específicos de proyectos
+│   └── redes.css       # Estilos específicos de redes
+└── js/
+    ├── app.js          # Lógica compartida (navegación, etc.)
+    └── desvanecimiento.js # Efecto de título (opcional)
